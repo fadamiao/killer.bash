@@ -2,10 +2,10 @@
 # killer.bash - Script to do the function of pkill in Mac OS X 10.6 and 10.7.
 # Author: Fernando A. Damião <me@fadamiao.com>
 # Created At: 2012-10-24 18:24
-# Last Update: 2013-08-29 13:27
+# Last Update: 2013-09-02 09:38
 # License: BSD 3-Clause License
 
-function pkill()
+function pkill
 {
     if [ $# -ne 1 ]; then
         echo "Syntax: pkill <ProcessName>"
